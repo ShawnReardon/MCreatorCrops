@@ -1,0 +1,533 @@
+{
+  "mod_elements": [
+    {
+      "name": "AlienRoot0",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_0",
+      "path": "~/Block"
+    },
+    {
+      "name": "AlienRoot1",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_1",
+      "path": "~/Block"
+    },
+    {
+      "name": "AlienRoot2",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_2",
+      "path": "~/Block"
+    },
+    {
+      "name": "AlienRoot3",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_3",
+      "path": "~/Block"
+    },
+    {
+      "name": "AlienRoot4",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_4",
+      "path": "~/Block"
+    },
+    {
+      "name": "AlienRoot5",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_5",
+      "path": "~/Block"
+    },
+    {
+      "name": "AlienRoot6",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_6",
+      "path": "~/Block"
+    },
+    {
+      "name": "AlienRoot7",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_7",
+      "path": "~/Block"
+    },
+    {
+      "name": "AlienRootSeeds",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_seeds",
+      "path": "~/Item"
+    },
+    {
+      "name": "AlienRoot",
+      "type": "food",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root",
+      "path": "~/Food"
+    },
+    {
+      "name": "AlienRootLightGrowthCondition",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_light_growth_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Crops/Script/Conditions"
+    },
+    {
+      "name": "AlienCrops",
+      "type": "tag",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_crops",
+      "path": "~/Tag"
+    },
+    {
+      "name": "AlienRootTallGrassSeedDroppingScript",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_tall_grass_seed_dropping_script",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/TallGrass"
+    },
+    {
+      "name": "AlienRootBlockAdded",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Crops/Script/Normal/BlockAdded"
+    },
+    {
+      "name": "AlienRootSeedsGlobalBlockRightClicked",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_seeds_global_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Items/Seeds"
+    },
+    {
+      "name": "AlienRootBoneMealGlobalBlockRightClicked",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_bone_meal_global_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Items/BoneMeal"
+    },
+    {
+      "name": "AlienRootNotFullyGrownDrops",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_not_fully_grown_drops",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Crops/Script/Normal/Dropping"
+    },
+    {
+      "name": "AlienRootFullyGrownDrops",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_fully_grown_drops",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Crops/Script/Normal/Dropping"
+    },
+    {
+      "name": "AlienRootFullyGrownExplosionDrops",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_root_fully_grown_explosion_drops",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Crops/Script/Normal/Dropping"
+    },
+    {
+      "name": "CropUpdateTick",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScoreCondition",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "score_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks/Crops/Script/Conditions"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "muted",
+      "files": [
+        "muted"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.crops.alien_root_1": "Alien Root Stage 1",
+      "block.crops.alien_root_2": "Alien Root Stage 2",
+      "block.crops.alien_root_3": "Alien Root Stage 3",
+      "block.crops.alien_root_4": "Alien Root Stage 4",
+      "block.crops.alien_root_5": "Alien Root Stage 5",
+      "block.crops.alien_root_6": "Alien Root Stage 6",
+      "block.crops.alien_root_7": "Alien Root Stage 7",
+      "item.crops.alien_root": "Alien Root",
+      "subtitles.muted": "",
+      "item.crops.alien_root_seeds": "Alien Root Seeds",
+      "block.crops.alien_root_0": "Alien Root Stage 0"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Procedures",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": [
+              {
+                "name": "Crops",
+                "children": [
+                  {
+                    "name": "Script",
+                    "children": [
+                      {
+                        "name": "Conditions",
+                        "children": []
+                      },
+                      {
+                        "name": "Normal",
+                        "children": [
+                          {
+                            "name": "UpdateTick",
+                            "children": []
+                          },
+                          {
+                            "name": "Dropping",
+                            "children": []
+                          },
+                          {
+                            "name": "BlockAdded",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TallGrass",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Items",
+            "children": [
+              {
+                "name": "Seeds",
+                "children": []
+              },
+              {
+                "name": "BoneMeal",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Block",
+        "children": []
+      },
+      {
+        "name": "Item",
+        "children": []
+      },
+      {
+        "name": "Food",
+        "children": []
+      },
+      {
+        "name": "Tag",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "crops",
+    "modName": "Crops",
+    "version": "1.0.0",
+    "author": "kiera, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.crops",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

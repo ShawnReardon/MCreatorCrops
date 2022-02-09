@@ -1,0 +1,38 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:AlienRoot0"
+      },
+      {
+        "value": "CUSTOM:AlienRoot1"
+      },
+      {
+        "value": "CUSTOM:AlienRoot2"
+      },
+      {
+        "value": "CUSTOM:AlienRoot3"
+      },
+      {
+        "value": "CUSTOM:AlienRoot4"
+      },
+      {
+        "value": "CUSTOM:AlienRoot5"
+      },
+      {
+        "value": "CUSTOM:AlienRoot6"
+      },
+      {
+        "value": "CUSTOM:AlienRoot7"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "alien_crops",
+    "namespace": "crops"
+  }
+}

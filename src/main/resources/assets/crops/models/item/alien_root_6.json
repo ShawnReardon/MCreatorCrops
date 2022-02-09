@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "crops:blocks/alien_root_plant_stage_6"
+  }
+}

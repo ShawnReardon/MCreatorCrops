@@ -1,0 +1,11 @@
+{
+  "muted": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "crops:muted",
+        "stream": false
+      }
+    ]
+  }
+}

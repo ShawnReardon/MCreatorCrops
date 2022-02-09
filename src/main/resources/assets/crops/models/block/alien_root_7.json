@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "crops:blocks/alien_root_plant_stage_7",
+    "particle": "crops:blocks/alien_root_plant_stage_7"
+  }
+}
